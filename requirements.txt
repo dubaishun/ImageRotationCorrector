@@ -1,0 +1,17 @@
+# 图形界面库
+tkinterdnd2>=0.3.0          # 拖拽功能支持
+
+# 图像处理
+Pillow>=8.0.0               # 图像处理库
+
+# 网络请求
+requests>=2.25.0            # HTTP请求库
+
+# 系统相关
+pywin32>=300; sys_platform == 'win32'  # Windows系统API（用于DPI设置）
+
+# 其他标准库（通常Python自带，列出以供参考）
+# base64
+# urllib
+# os
+# glob
